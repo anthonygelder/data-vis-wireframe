@@ -1,4 +1,86 @@
-/* 1 */
+body {
+    background-image: linear-gradient(to left top, #17a2b8, #14abc4, #12b3d1, #11bcde, #12c5eb);
+    height: 100vh;
+  }
+
+nav {
+    height: 100px;
+    background-color: rgb(48, 48, 48);
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 100px;
+    color: beige;
+}
+
+li {
+    color: beige;
+}
+
+ul {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+}
+
+input:focus{
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+section {
+    border: solid 1px black;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 90%;
+}
+
+header {
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px;
+}
+
+.landing {
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+.graph {
+    margin: 40px 0px;
+}
+
+
 body {
     background-image: linear-gradient(to left top, #17a2b8, #14abc4, #12b3d1, #11bcde, #12c5eb);
     height: 100vh;
@@ -16,22 +98,6 @@ body {
   #login .container #login-row #login-column .login-box #login-form #register-link {
     margin-top: -85px;
   }
-
-
-/* 2 */
-
-
-  /* body {
-    background: #000 !important;
-}
-.card {
-    border: 1px solid #28a745;
-}
-.card-login {
-    margin-top: 130px;
-    padding: 18px;
-    max-width: 30rem;
-}
 
 .card-header {
     color: #fff;
@@ -103,4 +169,8 @@ input:focus{
     background-color: #e9ecef;
     border: 1px solid #ced4da;
     border-radius: 0;
-} */
+} 
+
+.form-group {
+    margin: 40px;
+}

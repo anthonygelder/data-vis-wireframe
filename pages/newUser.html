@@ -8,17 +8,26 @@
     <link rel="stylesheet" type="text/css" media="screen" href="newUser.css" />
     <title>Document</title>
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="../style/reset.css">
+    <link rel="stylesheet" href="../style/style.css">
 </head>
-
 <body>
+    <nav>
+        <h1>WTDD</h1>
+        <ul>
+            <li>About</li>
+            <li>Example</li>
+            <li>My Charts</li>
+            <li>Sign Out</li>
+        </ul>
+    </nav>
         <div class="container">
                 <div class="registration mx-auto d-block w-100">
                     <div class="page-header text-center">
                         <h1>Sign up</h1>
                     </div>
-                    
                     <form id="member-registration" action="/astroidnew/index.php/pages/register?task=registration.register" method="post" class="form-validate form-horizontal well" enctype="multipart/form-data">
                         <fieldset>
                             <legend>User Registration</legend>
